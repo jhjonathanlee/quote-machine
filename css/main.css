@@ -27,3 +27,13 @@ body {
 .btnd {
     text-align: right;
 }
+
+.btnd .button {
+    color: #9b59b6;
+    background-color: #ecf0f1;
+    border: none;
+}
+
+.btnd .button:hover {
+    opacity: 0.9;
+}
