@@ -1,10 +1,22 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
     background: #ecf0f1;
 }
 
+#base-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote-box {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin: 1em;
 }
 
 #quote-well {
@@ -32,8 +44,13 @@ body {
     color: #9b59b6;
     background-color: #ecf0f1;
     border: none;
+    font-size: 1.25em;
 }
 
 .btnd .button:hover {
     opacity: 0.9;
+}
+
+.row {
+    width: 100%;
 }
