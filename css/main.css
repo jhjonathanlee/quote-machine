@@ -1,5 +1,6 @@
 .quote-box {
-    margin: 3em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #quote-well {
@@ -15,6 +16,10 @@
 
 #quote-author {
     font-size: 1.15em;
-    margin: 1.15em auto auto auto;
+    margin: 1em auto 1em auto;
+    text-align: right;
+}
+
+.btnd {
     text-align: right;
 }
