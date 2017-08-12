@@ -9,3 +9,9 @@ http-server -c-1
 ```
 
 Visit localhost:8080 to get your quotes
+
+TODO:
+
+add "created by"
+add "powered by"
+make a more original layout
